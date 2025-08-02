@@ -1,0 +1,122 @@
+/* Small Phones */
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 1.56rem 0;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+    .main-nav {
+        display: none;
+    }
+    .app-screen {
+        width: 15rem;
+    }
+    .btn {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+    .box {
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+    .contact-form {width: 90%;}
+}
+
+/* Small Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+    section {
+        padding: 30 0;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .row,
+    .hero-text-box{padding: 0 4%;}
+    .col {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav {
+        display: none;
+    }
+    .app-screen {width: 16rem;}
+    .steps-box:first-child {text-align: center;}
+    .work-step div {
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 0.9rem;
+        padding: 0.25rem;
+        font-size: 120%;
+    }
+    .work-step {margin-bottom: 1.25rem;}
+    .work-step:last-of-type {margin-bottom: 1.25rem;}
+}
+
+/* Big Tablets */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+    body {
+        font-size: 18px;
+    }
+    section {
+        padding: 3.75rem 0;
+    }
+    .main-nav {
+        float: right;
+    }
+    .steps-box {
+        margin-top: 0.6rem;
+    }
+    .steps-box:last-child {
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+    .app-screen {
+        margin-top: -1.875rem;
+    }
+    .work-step {
+        margin-top: 1.25rem;
+        margin-bottom: 3.75rem;
+    }
+    .work-step:last-of-type {
+        margin-bottom: 3.75rem;
+    }
+    .btn-app img {
+        height: 2.5rem;
+    }
+    .icon-small {
+        width: 1rem;
+        margin-right: 0.3rem;
+    }
+    .city-feature {
+        font-size: 90%;
+    }
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price {
+        font-size: 250%;
+    }
+    .contact-form {
+        width: 80%;
+    }
+}
+
+/* Laptops */
+@media only screen and (min-width: 101.56rem) and (max-width: 1280px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+}
